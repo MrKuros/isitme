@@ -188,6 +188,8 @@ The web app runs a probe inside your browser, and that probe is what proves the 
 - <Verdict v="LIKELY_YOUR_NETWORK" /> and <Verdict v="ISP_OUTAGE" /> **never** come back from the CLI. Both rules need a vantage on your machine that failed while the servers succeeded. Without one, the same situation reads as <Verdict v="HEALTHY" /> (the servers are fine) — which is correct but answers only half the question.
 - Confidence is capped lower. With no browser vantage, a healthy verdict tops out at 0.85 instead of 0.95.
 
+The exact number moves with conditions, so don't treat the captures on this page as fixed. A healthy check that scores 0.85 on a quiet day drops to 0.70 while Cloudflare's own status page reports an incident affecting the probes — IsItMe runs on Cloudflare, so it says so instead of sounding sure.
+
 If you need the "is it me?" half, use the chat app or send someone the [check-from-your-side link](/sharing). The CLI is for "did the site answer", which is what a script usually wants.
 
 ## In CI
