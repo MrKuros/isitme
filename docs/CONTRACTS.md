@@ -389,7 +389,7 @@ export async function dohLookup(
   opts?: {
     timeoutMs?: number;
     resolver?: "cloudflare" | "google";
-    checkDnssec?: boolean; /* true */
+    checkDnssec?: boolean /* true */;
   }
 ): Promise<DnsResult>;
 export async function guardUrl(url: string): Promise<string | null>; // normalizeTarget + dohLookup + assertSafeTarget
