@@ -36,7 +36,7 @@
     "@modelcontextprotocol/sdk": "1.30.0",
     "@phosphor-icons/react": "^2.1.10",
     "@streamdown/code": "^2.0.0",
-    "agents": "^0.28.0",
+    "agents": "^0.28.1",
     "ai": "^6.0.303",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^8.0.2",
-    "@cloudflare/vite-plugin": "^1.63.1",
+    "@cloudflare/vite-plugin": "^1.64.0",
     "@rolldown/plugin-babel": "^0.2.3",
     "@tailwindcss/vite": "^4.3.1",
     "@types/node": "^26.6.4",
