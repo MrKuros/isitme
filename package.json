@@ -38,8 +38,8 @@
     "@streamdown/code": "^2.0.0",
     "agents": "^0.28.0",
     "ai": "^6.0.303",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "streamdown": "^2.7.0",
     "workers-ai-provider": "^3.2.1",
     "zod": "^4.4.3"
